@@ -380,9 +380,9 @@ food_map.set("eggs", [
 food_map.set("frozen", [
   {
     id: 52,
-    name: "Pizza",
+    name: "Frozen Pizza",
     type: "frozen",
-    imageUrl: "https://example.com/images/pizza.jpg",
+    imageUrl: "https://example.com/images/frozen_pizza.jpg",
     timestamp: 10,
   },
   {
@@ -394,35 +394,35 @@ food_map.set("frozen", [
   },
   {
     id: 54,
-    name: "TK Berries",
+    name: "Frozen Berries",
     type: "frozen",
-    imageUrl: "https://example.com/images/tk_berries.jpg",
+    imageUrl: "https://example.com/images/frozen_berries.jpg",
     timestamp: 10,
   },
   {
     id: 55,
-    name: "Chicken Wings",
+    name: "Frozen Chicken Wings",
     type: "frozen",
     imageUrl: "https://example.com/images/chicken_wings.jpg",
     timestamp: 10,
   },
   {
     id: 56,
-    name: "Broccoli",
+    name: "Frozen Broccoli",
     type: "frozen",
     imageUrl: "https://example.com/images/broccoli.jpg",
     timestamp: 10,
   },
   {
     id: 57,
-    name: "Burger Patties",
+    name: "Frozen Burger Patties",
     type: "frozen",
     imageUrl: "https://example.com/images/burger_patties.jpg",
     timestamp: 10,
   },
   {
     id: 58,
-    name: "French fries",
+    name: "Frozen French fries",
     type: "frozen",
     imageUrl: "https://example.com/images/frozen_french_fries.jpg",
     timestamp: 10,
