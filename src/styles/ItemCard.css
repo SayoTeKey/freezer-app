@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.singleCard {
+  border: 1px solid #ccc;
+  display: grid;
+  width: 50%;
+  height: 25%;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+.singleCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CSS-Klassen für die verschiedenen Kategorien */
+.drinks {
+  border: 2px solid red;
+}
+
+.vegetables {
+  border: 2px solid green;
+}
+
+.fruits {
+  border: 2px solid yellow;
+}
+
+.tinned_food {
+  border: 2px solid orange;
+}
+
+.sauces {
+  border: 2px solid purple;
+}
+
+.fishAndMeat {
+  border: 2px solid blue;
+}
+
+.dairy {
+  border: 2px solid pink;
+}
+
+.ready {
+  border: 2px solid brown;
+}
+
+.eggs {
+  border: 2px solid cyan;
+}
+
+.frozen {
+  border: 2px solid magenta;
+}
