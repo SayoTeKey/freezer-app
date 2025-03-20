@@ -6,10 +6,10 @@ import ItemCard from "./ItemCard";
 }
 
 const InsideFridge = () => {
-  const [items, setItems] = useState([]);
+  // const [items, setItems] = useState([]);
 
-  const [draggingItem, setDraggingItem] = useState(null);
-  const [showMessage, setShowMessage] = useState(null);
+  // const [draggingItem, setDraggingItem] = useState(null);
+  // const [showMessage, setShowMessage] = useState(null);
   // const [compartments, setCompartments] = useState({
   //   frozen: [],
   //   ready: [],
@@ -59,7 +59,7 @@ const InsideFridge = () => {
 
   // const renderCompartmentItems = (items) => {
   //   return (
-  //     <div className="flex flex-wrap gap-2">
+  //     <div className="">
   //       {items.map((item) => (
   //         <div key={item.id}>
   //           <img src={item.imageUrl} title={item.name} />
@@ -72,7 +72,9 @@ const InsideFridge = () => {
   return (
     <div className="container">
       <div className="">
-        <h1>Kühlschrank einräumen aber Dalli</h1>
+        {/* <ProgressBar progress={progress} />
+        <WrongItems wrongAttempts={incorrectAttempts} /> */}
+        {/* <h1>Kühlschrank einräumen aber Dalli</h1> */}
         {/* 
         {showMessage && (
           <div className={`fixed ${showMessage.isError ? "error" : "check"}`}>
