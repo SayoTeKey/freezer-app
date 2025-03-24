@@ -5,25 +5,37 @@
 }
 
 .cardContainer {
-  border: 1px solid blue;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 16px;
+  justify-content: center;
 }
 
 .singleCard {
   border: 1px solid #ccc;
-  display: grid;
-  width: 50%;
-  height: 25%;
-  padding: 12px;
   border-radius: 8px;
+  padding: 16px;
+  width: 200px;
   text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
+
+.singleCard:hover {
+  transform: scale(1.05);
+}
+
 .singleCard img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.singleCard h1 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
 }
 
 /* CSS-Klassen für die verschiedenen Kategorien */
