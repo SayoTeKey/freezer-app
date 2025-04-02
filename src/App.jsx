@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "../src/styles/App.css";
+import foodItemsData from "./assets/data/FoodItems";
 // import InsideFridge from "./components/InsideFridge";
 import StartScreen from "./components/StartScreen";
 import FoodDisplay from "./components/FoodDisplay";
-// import FoodCards from "./components/FoodDisplay";
-
-import food_map from "./assets/data/FoodItems";
 
 const App = () => {
+  console.log("App.jsx", foodItemsData);
+
   const [gameStarted, setGameStarted] = useState(false); //Zustand für den Soielstand
   return (
     <>
@@ -15,9 +15,7 @@ const App = () => {
       <StartScreen onStart={() => setGameStarted(true)} />
       {gameStarted && (
         <div className="order">
-          {/* <FoodCards foodMap={food_map} /> */}
-
-          <FoodDisplay />
+          <FoodDisplay foodItemsData={foodItemsData} />
           {/* <InsideFridge /> */}
         </div>
       )}
